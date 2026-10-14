@@ -6,16 +6,20 @@ for ($i = 1; $i <= 20; $i++) {
     if ($i % 2 === 1) echo $i . ' adalah angka ganjil...';
     echo '<br>';
 }
+echo '<br>';
 
 // Challenge 2 -- Program perkalian 10x10 dengan nested loop
-for ($i = 1; $i <= 10; $i++) {
-    echo "10 x $i : " . 10 * $i;
+for ($j = 1; $j <= 10; $j++) {
+    for ($i = 1; $i <= 10; $i++) {
+        echo $j * $i;
+        echo ' || ';
+    }
     echo '<br>';
 }
 
 // Challenge 3 -- Program cetak pola bintang segitiga
-for ($i = 0; $i <= 5; $i++) {
-    for ($j = 0; $j < $i; $j++) {
+for ($i = 1; $i <= 5; $i++) {
+    for ($j = 1; $j <= $i; $j++) {
         echo '*';
     }
     echo '<br>';
