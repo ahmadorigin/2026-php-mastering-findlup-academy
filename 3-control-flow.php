@@ -6,3 +6,9 @@ for ($i = 1; $i <= 20; $i++) {
     if ($i % 2 === 1) echo $i . ' adalah angka ganjil...';
     echo '<br>';
 }
+
+// Challenge 2 -- Program perkalian 10x10 dengan nested loop
+for ($i = 1; $i <= 10; $i++) {
+    echo "10 x $i : " . 10 * $i;
+    echo '<br>';
+}
