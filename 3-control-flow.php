@@ -12,3 +12,11 @@ for ($i = 1; $i <= 10; $i++) {
     echo "10 x $i : " . 10 * $i;
     echo '<br>';
 }
+
+// Challenge 3 -- Program cetak pola bintang segitiga
+for ($i = 0; $i <= 5; $i++) {
+    for ($j = 0; $j < $i; $j++) {
+        echo '*';
+    }
+    echo '<br>';
+}
